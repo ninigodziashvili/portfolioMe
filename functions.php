@@ -1,6 +1,9 @@
 <?php
 function mi_tema_enqueue_styles() {
- wp_enqueue_style('estilos-principales', get_stylesheet_uri());
+    wp_enqueue_style(
+        'estilos-principales',
+        get_stylesheet_directory_uri() . '/assets/CSS/style.css'
+    );
 }
 
 function mi_tema_scripts() {
