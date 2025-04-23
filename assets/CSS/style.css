@@ -1,5 +1,5 @@
 /*
-Theme Name: Prueba
+Theme Name: Portfolio
 Theme URI: https://www.ejemplo.com
 Author: Nino
 Author URI: https://www.tusitio.com
@@ -12,5 +12,5 @@ Text Domain: nombre-del-tema
 /* Aquí puedes comenzar a escribir tus estilos CSS */
 
 body {
-    background-color: rgb(153, 125, 180);
+    background-color: #091930;
 }
