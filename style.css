@@ -1,0 +1,16 @@
+/*
+Theme Name: Prueba
+Theme URI: https://www.ejemplo.com
+Author: Nino
+Author URI: https://www.tusitio.com
+Description: Breve descripción del tema.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: nombre-del-tema
+*/
+/* Aquí puedes comenzar a escribir tus estilos CSS */
+
+body {
+    background-color: rgb(153, 125, 180);
+}
