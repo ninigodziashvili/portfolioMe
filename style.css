@@ -11,13 +11,138 @@ Text Domain: portfolio
 */
 /* Aquí puedes comenzar a escribir tus estilos CSS */
 
-body {
-    background-color: #1e375c;
-    font-family: "Lato";
-    color: white;
-}
-
 @font-face {
     font-family: "Lato";
-    src: url("../fonts/Lato-Regular.ttf");
+    src: url("../portfolioMe/assets/fonts/Lato-Regular.ttf");
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1e375c;
+    font-family: "Lato";
+  }
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #491c26;;
+  }
+  .logo{
+    color: rgb(237, 236, 236);
+    width: 30%;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 5px;
+  }
+  .nav-link{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+  }
+  .nav-link li{
+    list-style: none;
+  }
+  .nav-link a{
+    color: rgb(237, 236, 236);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .nav-link a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    border-radius: 1px;
+    background: rgb(237, 236, 236);
+    transition: width .3s;
+  }
+  .nav-link a:hover::after {
+    width: 100%;
+    transition: width .3s;
+  }
+  .burger{
+    display: none;
+    cursor: pointer;
+  }
+  .burger div{
+    width: 25px;
+    height: 3px;
+    margin: 5px 0 5px 0;
+    border-radius: 20px;
+    background-color: rgb(193, 193, 193);
+    transition: all 1s ease;
+  }
+  .main {
+    background-image: linear-gradient(to bottom, rgb(31 31 40/70%) 0, rgba(51 48 47/30%) 100%), url("../img/sidney.jpg");
+    background-size: cover;
+    background-position: 0%;
+    background-repeat: no-repeat;
+    height: 92vh;
+  }
+  
+  /* X de la hamburguesa */
+  .toggle .burger-line1 {
+    transform: translate(0px, 9px) rotate(-45deg);
+  }
+  
+  .toggle .burger-line2 {
+    opacity: 0;
+  }
+  
+  .toggle .burger-line3 {
+    transform: translate(0px, -7px) rotate(45deg);
+  }
+  @media screen and (max-width: 1024px){
+    .nav-link{
+      width: 60%;
+    }
+    .main {
+      background-image: linear-gradient(to bottom, rgb(31 31 40/70%) 0, rgba(51 48 47/30%) 100%), url("../img/sun.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 92vh;
+    }
+  }
+  @media screen and (max-width: 800px){
+    body{
+      overflow-x: hidden;
+    }
+    .nav-link {
+      position: absolute;
+      right: 0px;
+      height: 92vh;
+      top: 8vh ;
+      background-color:#491c26;;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 50%;
+      transform: translateX(100%);
+      transition: transform 0.5s ease-in;
+    }
+    .nav-link-activated{
+      transition: transform 0.5s ease-in;
+      transform: translateX(0%);
+    }
+    .nav-link li{
+      opacity: 0; 
+    }
+    .burger{
+      display: block;
+    }
+  }
+  @keyframes navLinkFade {
+    from{
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to{
+      opacity: 1;
+      transform: translateX(0px) ;
+    }
+  }  

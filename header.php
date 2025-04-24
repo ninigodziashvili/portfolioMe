@@ -9,13 +9,28 @@
 </head>
 <body>
 
-<header>
-  <nav>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#work">Work</a></li>
-      <li><a href="#contact">Contact</a></li>
+<nav>
+    <div class="logo">
+      <h4>The nav</h4>
+    </div>
+    <ul class="nav-link">
+      <li>
+        <a href="#">Home</a>
+      </li>
+      <li>
+        <a href="#">About</a>
+      </li>
+      <li>
+        <a href="#">Work</a>
+      </li>
+      <li>
+        <a href="#">Projects</a>
+      </li>
     </ul>
+    <div class="burger">
+      <div class="burger-line1"></div>
+      <div class="burger-line2"></div>
+      <div class="burger-line3"></div>
+    </div>
   </nav>
-</header>
+  <main class="main"></main>
