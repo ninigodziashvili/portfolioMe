@@ -11,7 +11,7 @@
 
 <nav>
     <div class="logo">
-      <h4>The nav</h4>
+      <img src="../assets/img/11.jpg" alt="" width="100px" height="100px">
     </div>
     <ul class="nav-link">
       <li>
