@@ -1,10 +1,5 @@
-<?php include 'includes/header.php'; ?>
-
+<?php get_header(); ?>
 <main>
-  <?php include 'sections/about.php'; ?>
-  <?php include 'sections/experience.php'; ?>
-  <?php include 'sections/work.php'; ?>
-  <?php include 'sections/contact.php'; ?>
+    <h2>Front Page</h2>
 </main>
-
-<?php include 'includes/footer.php'; ?>
+<?php get_footer(); ?>
