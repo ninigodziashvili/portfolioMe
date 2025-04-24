@@ -2,9 +2,13 @@
 function mi_tema_enqueue_styles() {
     wp_enqueue_style(
         'estilos-principales',
-        get_stylesheet_directory_uri() . '/assets/CSS/style.css'
+        get_stylesheet_uri(), // This loads the correct theme's style.css automatically
+        array(), // Dependencies (if any)
+        null  // Version
     );
 }
+
+add_action('wp_enqueue_scripts', 'mi_tema_enqueue_styles');
 
 function mi_tema_scripts() {
     wp_enqueue_script(
@@ -16,6 +20,5 @@ function mi_tema_scripts() {
     );
    }
 
-   add_action('wp_enqueue_scripts', 'mi_tema_enqueue_styles');
    add_action('wp_enqueue_scripts', 'mi_tema_scripts');
    
