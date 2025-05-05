@@ -86,7 +86,6 @@ body {
     background-size: cover;
     background-position: 0%;
     background-repeat: no-repeat;
-    height: 92vh;
   }
   
   /* X de la hamburguesa */
@@ -101,6 +100,70 @@ body {
   .toggle .burger-line3 {
     transform: translate(0px, -7px) rotate(45deg);
   }
+
+.main {
+  color: #2A9D8F;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3em;
+  padding: 10em;
+  gap: 2em;
+}
+  .main span {
+    font-size: 40px;
+  }
+
+  .main p {
+    font-size: 40px;
+    max-width: 30em;
+  }
+
+  .main button {
+    width: 20em;
+    height: 3em;
+  }
+  footer {
+    color: #2A9D8F;
+  }
+
+/*   $background: #fafbff;
+  $button-width: 120px;
+  $border-radius: 5px;
+
+  .btn-style5 {
+    $btn-color: #979695;
+    $btn-hover-color: #dd6395;
+    $offset: 0.3em;
+    border-color: $btn-color;
+    color: $btn-color;
+    box-shadow: $offset $offset 0 $btn-hover-color;
+    &:hover {
+      box-shadow: (-$offset) (-$offset) 0 $btn-color;
+      background-color: $btn-hover-color;
+      border-color: $btn-hover-color;
+      color: #fff;
+    }
+  } */
+
+  .btn-style5 {
+    --btn-color: #979695;
+    --btn-hover-color: #2A9D8F;
+    --offset: 0.3em;
+    
+    border-color: var(--btn-color);
+    color: var(--btn-color);
+    box-shadow: var(--offset) var(--offset) 0 var(--btn-hover-color);
+    width: 20em;
+    height: 3em;
+  }
+  
+  .btn-style5:hover {
+    box-shadow: calc(-1 * var(--offset)) calc(-1 * var(--offset)) 0 var(--btn-color);
+    background-color: var(--btn-hover-color);
+    border-color: var(--btn-hover-color);
+    color: #fff;
+  }
+  
   @media screen and (max-width: 1024px){
     .nav-link{
       width: 60%;

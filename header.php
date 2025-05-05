@@ -33,4 +33,12 @@
       <div class="burger-line3"></div>
     </div>
   </nav>
-  <main class="main"></main>
+  <main class="main">
+    <h2>Hola, soy <br><br><span>Nino Godziashvili</span></h2>
+    <p>Construyo cosas para la web.</p>
+    <p>Soy ingeniero de software especializado en la creación (y ocasionalmente el diseño) 
+      de experiencias digitales excepcionales. Actualmente, me centro en la creación de productos accesibles y centrados en el ser humano.</p>
+      </div>
+      <div><a class="click-btn btn-style5" href="#">Hover me</a></div>
+    </div>
+  </main>
