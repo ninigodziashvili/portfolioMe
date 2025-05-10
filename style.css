@@ -62,7 +62,7 @@ body {
     width: 0;
     height: 3px;
     border-radius: 1px;
-    background: rgb(237, 236, 236);
+    background:black;
     transition: width .3s;
   }
   .nav-link a:hover::after {
@@ -86,7 +86,6 @@ body {
     background-size: cover;
     background-position: 0%;
     background-repeat: no-repeat;
-    height: 92vh;
   }
   
   /* X de la hamburguesa */
@@ -101,6 +100,56 @@ body {
   .toggle .burger-line3 {
     transform: translate(0px, -7px) rotate(45deg);
   }
+
+.main {
+  color: #2A9D8F;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3em;
+  padding: 10em;
+  gap: 2em;
+}
+  .main span {
+    font-size: 40px;
+  }
+
+  .main p {
+    font-size: 40px;
+    max-width: 30em;
+  }
+
+  .main button {
+    width: 20em;
+    height: 3em;
+  }
+  footer {
+    color: #2A9D8F;
+  }
+
+  .btn-style5 {
+    --btn-color: #979695;
+    --btn-hover-color: #2A9D8F;
+    --offset: 0.3em;
+  
+    display: inline-block; /* <--- This makes width & height work */
+    width: 120px;           /* or whatever size you want */
+    height: 40px;
+  
+    border: 2px solid var(--btn-color);
+    color: var(--btn-color);
+    text-align: center;     /* centers text horizontally */
+    line-height: 40px;      /* centers text vertically if only one line */
+    text-decoration: none;  /* remove underline if needed */
+    box-shadow: var(--offset) var(--offset) 0 var(--btn-hover-color);
+  }
+  
+  .btn-style5:hover {
+    box-shadow: calc(-1 * var(--offset)) calc(-1 * var(--offset)) 0 var(--btn-color);
+    background-color: var(--btn-hover-color);
+    border-color: var(--btn-hover-color);
+    color: #fff;
+  }
+  
   @media screen and (max-width: 1024px){
     .nav-link{
       width: 60%;

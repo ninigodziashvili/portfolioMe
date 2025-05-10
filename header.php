@@ -33,4 +33,3 @@
       <div class="burger-line3"></div>
     </div>
   </nav>
-  <main class="main"></main>
