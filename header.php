@@ -10,21 +10,19 @@
 <body>
 
 <nav>
-    <div class="logo">
-      <img src="http://secondtry.local/wp-content/uploads/2025/04/11.png" alt="" width="100px" height="100px">
-    </div>
+    <div><a class="click-btn btn-style5" href="https://www.linkedin.com/in/nino-godziashvili-05874a163" target="_blank">Resume</a></div>
     <ul class="nav-link">
       <li>
-        <a href="#">Home</a>
+        <a href="#">Sobre me</a>
       </li>
       <li>
-        <a href="#">About</a>
+        <a href="#">Experiencia</a>
       </li>
       <li>
-        <a href="#">Work</a>
+        <a href="#">Trabajos</a>
       </li>
       <li>
-        <a href="#">Projects</a>
+        <a href="#">Proyectos</a>
       </li>
     </ul>
     <div class="burger">
