@@ -11,7 +11,7 @@
 
 <nav>
     <div class="logo">
-      <img src="../assets/img/11.jpg" alt="" width="100px" height="100px">
+      <img src="http://secondtry.local/wp-content/uploads/2025/04/11.png" alt="" width="100px" height="100px">
     </div>
     <ul class="nav-link">
       <li>

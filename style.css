@@ -119,8 +119,9 @@ body {
   }
 
   .main button {
-    width: 20em;
-    height: 3em;
+    width: 25em;
+    height: 5em;
+    border-radius: 10px;
   }
   footer {
     color: #2A9D8F;
@@ -141,6 +142,7 @@ body {
     line-height: 40px;      /* centers text vertically if only one line */
     text-decoration: none;  /* remove underline if needed */
     box-shadow: var(--offset) var(--offset) 0 var(--btn-hover-color);
+    border-radius: 10px;
   }
   
   .btn-style5:hover {
@@ -197,4 +199,4 @@ body {
       opacity: 1;
       transform: translateX(0px) ;
     }
-  }  
+  }
