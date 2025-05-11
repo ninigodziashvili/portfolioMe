@@ -10,10 +10,10 @@
 <body>
 
 <nav>
-    <div><a class="click-btn btn-style5" href="https://www.linkedin.com/in/nino-godziashvili-05874a163" target="_blank">Resume</a></div>
+    <div><a class="click-btn btn-style5" href="http://secondtry.local/wp-content/uploads/2025/05/CV-Neww.pdf" target="_blank">Resume</a></div>
     <ul class="nav-link">
       <li>
-        <a href="#">Sobre me</a>
+        <a href="#about">Sobre me</a>
       </li>
       <li>
         <a href="#">Experiencia</a>

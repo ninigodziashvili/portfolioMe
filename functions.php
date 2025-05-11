@@ -2,9 +2,9 @@
 function mi_tema_enqueue_styles() {
     wp_enqueue_style(
         'estilos-principales',
-        get_stylesheet_uri(), // This loads the correct theme's style.css automatically
-        array(), // Dependencies (if any)
-        null  // Version
+        get_stylesheet_uri(),
+        array(),
+        null
     );
 }
 
