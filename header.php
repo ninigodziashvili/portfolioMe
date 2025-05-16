@@ -13,16 +13,16 @@
     <div><a class="click-btn btn-style5" href="http://secondtry.local/wp-content/uploads/2025/05/CV-Neww.pdf" target="_blank">Resume</a></div>
     <ul class="nav-link">
       <li>
-        <a href="#about">Sobre me</a>
+        <a href="#about">Sobre mi</a>
       </li>
       <li>
         <a href="#">Experiencia</a>
       </li>
       <li>
-        <a href="#">Trabajos</a>
+        <a href="#projects">Proyectos</a>
       </li>
       <li>
-        <a href="#">Proyectos</a>
+        <a href="#">Contacto</a>
       </li>
     </ul>
     <div class="burger">
