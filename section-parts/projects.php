@@ -3,6 +3,7 @@
   <p class="container-title">Proyectos en GitHub</p>
 
   <div class="gradient-cards">
+       <a href="https://github.com/login">
     <div class="card">
       <div class="container-card bg-green-box">
         <svg width="80" height="80" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -25,7 +26,8 @@
         <p class="card-description">Hubble lets users borrow USDH for a one-time 0.5% fee. No variable rates. No interest charged, ever.</p>
       </div>
     </div>
-
+</a>
+  <a href="https://github.com/login">
     <div class="card">
       <div class="container-card bg-white-box">
         <svg width="80" height="80" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -53,7 +55,8 @@
         <p class="card-description">Deposit a variety of assets on Hubble, raise your collateral ratio, and unlock the liquidity in your wallet.</p>
       </div>
     </div>
-
+<</a>
+  <a href="https://github.com/login">
     <div class="card">
       <div class="container-card bg-yellow-box">
         <svg width="80" height="80" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -75,6 +78,7 @@
         <p class="card-description">While your collateral is deposited, delegate it to earn the highest yield available in the Solana ecosystem.</p>
       </div>
     </div>
+    </a>
     </div>
   </div>
 </div>

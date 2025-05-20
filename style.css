@@ -300,11 +300,16 @@ body {
   color: var(--darkhighlight);
 }
 
+.gradient-cards a {
+  text-decoration: none;
+}
+
 .container {
   width: 1200px !important;
   padding: 0 !important;
   margin-right: auto;
   margin-left: auto;
+
 
   @media screen and (min-width: 992px) and (max-width: 1439px) {
     max-width: 1279px !important;
