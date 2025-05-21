@@ -7,7 +7,7 @@
   </p><br>
   </div>
   <div class="main-image">
-  <img src="http://secondtry.local/wp-content/uploads/2025/05/CV_photo.jpeg" alt="">
+  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/CV_photo.jpeg" alt="portf image">
   </div>
 </div>
 </section>
