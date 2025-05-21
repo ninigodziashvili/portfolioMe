@@ -31,7 +31,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 8vh;
+    min-height: 8em;
     background-color: #2A9D8F;
   }
   .logo{
