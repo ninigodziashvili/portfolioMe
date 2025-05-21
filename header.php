@@ -16,7 +16,7 @@
         <a href="#about">Sobre mi</a>
       </li>
       <li>
-        <a href="#">Experiencia</a>
+        <a href="#experiance-main-container">Experiencia</a>
       </li>
       <li>
         <a href="#projects">Proyectos</a>

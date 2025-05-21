@@ -22,3 +22,7 @@ function mi_tema_scripts() {
 
    add_action('wp_enqueue_scripts', 'mi_tema_scripts');
    
+   function my_function_admin_bar(){
+    return false;
+}
+add_filter( 'show_admin_bar' , 'my_function_admin_bar');
